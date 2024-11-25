@@ -2,7 +2,7 @@
 
 
 1. Create a [Scarf account](https://app.scarf.sh/login).
-2. Set up a Scarf Organization for your project. You will see each Organization you belong by clicking on “Organizations” in the top nav or under the dropdown menu at the top right.
+2. Set up a Scarf Organization for your project. You will see each Organization you belong to by clicking on “Organizations” in the top nav or under the dropdown menu at the top right.
 4. Track downloads with Scarf Packages:
     1. WHAT IS A PACKAGE: Packages sit in front of downloads creating a redirect (new URL) through the Scarf Gateway to track information about Docker containers, files, npm packages, or Python packages.
     2. Set up a [new package URL](/packages) via the [Scarf Gateway](/gateway) within your Scarf Dashboard.
