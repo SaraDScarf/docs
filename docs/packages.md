@@ -89,20 +89,17 @@ File Packages on Scarf are a flexible and low-level package type that can track 
 5. Give your package a name.
 ![Name your package](assets/pics/qs-file-packages/file-package-name.png)
 
-### Adding an Outgoing and Incoming URL
-This section explains what the Outgoing and Incoming URLs are and how to use a URL template.
+### Adding an Incoming URL
+This section explains what Incoming URLs are and how to use a URL template.
 
 1.) Add the URL path where your files are currently located. You can add a simple URL or a URL template like in the example. `https://www.example.com/mypath/{version}/{platform}.tar.gz`
 This example uses 2 variables `{version}` and `{platform}`.
- > Note: The Outgoing URL is the full URL to your asset on your HTTP/S hosting provider. It can be a URL template but if you use variables in your URL they need to also be used in your Incoming Path that define in the next step.
 
-![path where files are located](assets/pics/qs-file-packages/file-package-outgoing-url.png)
+![path where files are located](assets/pics/qs-file-packages/file-package-oincoming.png)
 
 2.) Choose the domain where your files should be available from. You may choose to use your own domain for serving files. You may also choose to use `<username>.gateway.scarf.sh` provided by default by Scarf.
 
 3.) Add the Incoming URL Path where Scarf will direct requests to fetch a file asset.
-
-> Note: Any variables used in your Outgoing URL path need to match your Incoming URL.
 
  ![Add the Incoming URL Path](assets/pics/qs-file-packages/file-package-incoming.png)
 
